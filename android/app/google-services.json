@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "40756926746",
+    "project_id": "sv-teste",
+    "storage_bucket": "sv-teste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40756926746:android:39fd6bf2ba247aae43b4a3",
+        "android_client_info": {
+          "package_name": "br.com.gustavo.flutter_application_sv_teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40756926746-ug3qp0090bo7cccude8n7t4kbnk3rato.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBRUWJwtoVK-zYqotms9Ky_ZAKcInu_bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40756926746-ug3qp0090bo7cccude8n7t4kbnk3rato.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "40756926746-o23no80usmohui63b5up0ku7v7t6r3j6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.gustavo.flutterApplicationSvTeste"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
