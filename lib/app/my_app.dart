@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/':(context) => const TelaEnvio(),
-        'tela-2':(context) => const TelaLeitura(),
+        '/':(context) =>  TelaEnvio(),
+        'tela-2':(context) =>  const MyWidget(),
       },
     );
   }
