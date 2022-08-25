@@ -43,7 +43,6 @@ class TelaEnvio extends StatelessWidget {
                 return 'Valor Obrigatório.';
               }
             },
-            keyboardType: TextInputType.number,
           ),
         ),
         ElevatedButton(

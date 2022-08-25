@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_sv_teste/app/my_app.dart';
+
+import '../my_app.dart';
 
 class MyWidget extends StatefulWidget {
   const MyWidget({Key? key}) : super(key: key);
@@ -10,7 +11,7 @@ class MyWidget extends StatefulWidget {
 }
 
 class _MyWidgetState extends State<MyWidget> {
-  String informacaoEnviada = 'recebe informação';
+  String informacaoEnviada = '';
   Future getInfo() async {
     //comando abaixo "abre" o banco de dados, tornando possível sua manipulação, é o que eu entendo até agora
     // ignore: no_leading_underscores_for_local_identifiers
@@ -38,6 +39,13 @@ class _MyWidgetState extends State<MyWidget> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tela para Leitura da Informação'),
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed(MyApp.tela3);
+              },
+              icon: const Icon(Icons.arrow_forward_outlined))
+        ]
       ),
       body: Column(children: [
         Center(
